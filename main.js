@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Taters"),(()=>{const e=document.getElementById("content"),t=document.createElement("h1"),l=document.createElement("p");document.createElement("img"),t.textContent="The Chill Grill",l.textContent="Come eat at Victor Baxter's Chill Grill. You chill, we grill!",e.append(t,l)})()})();
