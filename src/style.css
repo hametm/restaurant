@@ -28,7 +28,11 @@ a:hover {
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5rem;
-    margin-bottom: 0px;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    margin: 0;
 }
 
 h3 {
@@ -42,6 +46,7 @@ h3 {
 
 .homeImage {
     height: 80%;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -51,6 +56,7 @@ p {
 
 .contactImage {
     height: 85%;
+    margin-top: 10px;
 }
 
 .homeText {
@@ -62,5 +68,9 @@ img {
 }
 
 .description {
-    width: 75%;
+    width: 60%;
+}
+
+.fullName {
+    margin: 1rem auto;
 }

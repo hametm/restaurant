@@ -15,9 +15,9 @@ const createContactContent = () => {
 
     header.textContent = "Contact";
     victor.textContent = "Victor Baxter";
+    victor.classList.add("fullName");
     phone.textContent = "415-555-2813";
     title.textContent = "Head Chef";
-
     homeLink.textContent = "Home";
     contactLink.textContent = "Contact";
     menuLink.textContent = "Menu";
