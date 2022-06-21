@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&family=Roboto:wght@400;700&family=Train+One&family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(145, 32, 176), rgb(38, 14, 171));
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content {
+    background-color: whitesmoke;
+    height: 80%;
+    width: 50%;
+    padding: 2rem;
+    display: grid;
+    justify-items: center;
+    box-shadow: -30px 30px orange;
+    margin-bottom: 50px;
+}
+
+a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.linkContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.homeImage {
+    height: 80%;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: center
+}
+
+.contactImage {
+    height: 85%;
+}
+
+.homeText {
+    margin: 2rem;
+}
+
+img {
+    box-shadow: -2px 2px 5px grey;
+}
+
+.description {
+    width: 75%;
+}
