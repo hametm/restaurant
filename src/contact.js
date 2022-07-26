@@ -44,7 +44,6 @@ const createContactContent = () => {
     linkContainer.append(homeLink, menuLink, contactLink);
     content.append(linkContainer, header, victor, title, phone, image);
 
-
 }
 
 export { createContactContent };
